@@ -36,7 +36,7 @@ container {
 }
 
 .navbar {
-    background: lightblue;
+    background: gray;
     color: black;
     height: 70px;
     line-height: 1.5;
@@ -46,11 +46,11 @@ container {
 .navbar .logo {
     font-size: 28px;
     font-weight: bolder;
-    background-color: green
+    background-color: rgb(89, 179, 236)
 }
 
 .navbar a {
-    color: green;
+    color: blue;
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
@@ -59,7 +59,7 @@ container {
 /* adding the hover feature, changing the background color for better visibility*/
 .navbar a:hover {
     background: white;
-    color: lightblue
+    color: rgb(89, 179, 236)
 }
 
 /*defining navigation bar items and their position*/
@@ -81,11 +81,11 @@ container {
 }
 
 .header {
-    background-color: lightblue;
+    background-color: rgb(89, 179, 236);
     color: rgb(20, 20, 19);
     line-height: 1.5;
     min-height: 400px;
-    margin-top: 5px; 5px;
+    margin:top: 5px;
 }
 
 .header h1 {
@@ -98,7 +98,7 @@ container {
 .header img{
     max-width: 960px;
     max-height: 236px;
-    margin: 8px; 8px;
+    margin: 8px;
 }
 
 .header .container {
@@ -115,6 +115,7 @@ container {
     padding: 8px; 8px;
 }
 
+/*creating "boxa" to separate this box from the rest*/
 .boxa {
     flex: 1;
     background: grey;
@@ -129,7 +130,7 @@ container {
 
 .box {
     flex: 1;
-    background: blue;
+    background: rgb(89, 179, 236);
     color: white;
     border-radius: 10px;
     margin: 20px 10px;
@@ -137,10 +138,11 @@ container {
     padding: 15px 20px;
 }
 
+/*creating "boxb" to separate this box from the rest*/
 .boxb {
     flex: 1;
     background: white;
-    color: darkslategrey;
+    color: darkgray;
     border-radius: 10px;
     margin: 20px 10px;
     box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
@@ -176,10 +178,8 @@ container {
     font-weight: bold;
     height: 25px;
     width: 100px;
-    padding: 10px; 0;
-    color: black
-    background-color: lightblue
-    text-alight: center;
+    padding: 10px;
+    color: rgb(1, 1, 1);
+    background-color: rgb(163, 98, 98);
     }
-
 }
