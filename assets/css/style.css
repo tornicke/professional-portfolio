@@ -38,6 +38,7 @@ container {
     background: lightblue;
     color: black;
     height: 70px;
+    line-height: 1.5;
 }
 
 /*Adjusting the font and font weight for better visibility*/
@@ -71,10 +72,11 @@ container {
 /*placing navigation bar items horizontally*/
 .navbar ul {
     display: flex;
+    flex-direction: row;
 }
 
 .navbar ul li {
-    margin-left: 20px;
+    margin-left: 18px;
 }
 
 .header {
@@ -101,12 +103,22 @@ container {
 .header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .boxes .container {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+}
+
+.box-a {
+    flex: 1;
+    background: yellow;
+    color: white;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
+    padding: 15px 20px;
 }
 
 .box {
@@ -119,10 +131,20 @@ container {
     padding: 15px 20px;
 }
 
+.box-b {
+    flex: 1;
+    background: yellow;
+    color: white;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
 /* defining the max. screen width for better responsiveness*/
 @media(max-width: 768px) {
     .header .container {
-        flex-direction: column
+        flex-direction: column;
         padding-top: 20px;
         text-align: center;
     }
