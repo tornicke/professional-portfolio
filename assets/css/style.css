@@ -76,7 +76,7 @@ container {
 .header {
     background: blue;
     color: white;
-    min-height: 400px;
+    min-height: 100px;
 }
 
 .header h1 {
