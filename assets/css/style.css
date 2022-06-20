@@ -130,7 +130,7 @@ container {
 .boxb {
     flex: 1;
     background: rgb(89, 179, 236);
-    color: white;
+    color: black;
     border-radius: 10px;
     margin: 20px 10px;
     line-height: 2;
@@ -142,7 +142,7 @@ container {
 .box {
     flex: 1;
     background: rgb(89, 179, 236);
-    color: white;
+    color: black;
     border-radius: 10px;
     margin: 20px 10px;
     box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
@@ -153,7 +153,7 @@ container {
 .boxc {
     flex: 1;
     background: white;
-    color: darkgray;
+    color: black;
     border-radius: 10px;
     margin: 20px 10px;
     box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
