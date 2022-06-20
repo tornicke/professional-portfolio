@@ -64,4 +64,4 @@
 <h4><li>Website design: Tornike</li>
 <li>Stock images, sourced on June 20, 2022</li></h4>
 
-[https://tornicke.github.io/professional-portfolio/](Live deployment URL)
+[Live deployment URL](https://tornicke.github.io/professional-portfolio/)
