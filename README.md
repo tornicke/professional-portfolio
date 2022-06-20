@@ -33,6 +33,33 @@
 <li>Repository contains multiple descriptive commit messages.</li>
 <li>Repository contains a quality readme with description, screenshot, link to deployed application.</li></h4>
 
-<h4>Copyright:</h4>
-<h5><li>Website design: Tornike</li>
-<li>Stock images, sourced on June 20, 2022</li></h5>
+<h2>Changes made</h2>
+
+<h3><li>In HTML</li></h3>
+<h4><li>Build the basic HTML structure, connected the HTML file with the style sheet,</li>
+<li>Built the navigation bar and defined the navigation bar items</li>
+<li>Structured the header and the header image,</li>
+<li>Built the "About me" section,</li>
+<li>Built the "Work" section with 4 distinct boxes,</li>
+<li>Built the "Contact" section with working links,</li>
+<li>Added images and alt tags where necessary,</li>
+<li>Used classes and containers to structure the content,</li>
+<li>Structured the headings semantically,</li>
+<li>Added a footer,</li>
+<li>Added relevant comments to the HTML file</li>
+</h4>
+
+<h3><li>In CSS</li></h3>
+<h4><li>Defined the body and container attributes and styles,</li>
+<li>Defined the navigation bar style and adapted the navigation bar items as needed,</li>
+<li>Added styles and responsive features to lists for better visual appeal,</li>
+<li>Defined header and header element styles,</li>
+<li>Structured boxes and containers for better responsiveness,</li>
+<li>Divided boxes into categories ("boxa", "box", "boxb", "boxc") for convenience,</li>
+<li>Defined a media query to accommodate a variety of screen sizes,</li>
+<li>Styled the footer,</li>
+<li>Added relevant comments to the style sheet.</li></h4>
+
+<h2>Copyright:</h2>
+<h4><li>Website design: Tornike</li>
+<li>Stock images, sourced on June 20, 2022</li></h4>
