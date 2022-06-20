@@ -12,12 +12,12 @@
 <h2>Acceptance Criteria</h2>
 <h4>
 <ul>1. GIVEN I need to sample a potential employee's previous work</ul>
-<ul>WHEN I load their portfolio, THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them</ul>
-<ul>WHEN I click one of the links in the navigation, THEN the UI scrolls to the corresponding section</ul>
-<ul>WWHEN I click on the link to the section about their work, THEN the UI scrolls to a section with titled images of the developer's applications</ul>
-<ul>WHEN I am presented with the developer's first application, THEN that application's image should be larger in size than the others</ul>
-<ul>WHEN I click on the images of the applications, THEN I am taken to that deployed application</ul>
-<ul>WHEN I resize the page or view the site on various screens and devices, THEN I am presented with a responsive layout that adapts to my viewport</ul></h4>
+<ul>2. WHEN I load their portfolio, THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them</ul>
+<ul>3. WHEN I click one of the links in the navigation, THEN the UI scrolls to the corresponding section</ul>
+<ul>4. WWHEN I click on the link to the section about their work, THEN the UI scrolls to a section with titled images of the developer's applications</ul>
+<ul>5. WHEN I am presented with the developer's first application, THEN that application's image should be larger in size than the others</ul>
+<ul>6. WHEN I click on the images of the applications, THEN I am taken to that deployed application</ul>
+<ul>7. WHEN I resize the page or view the site on various screens and devices, THEN I am presented with a responsive layout that adapts to my viewport</ul></h4>
 
 <h2>Grading Requirements</h2>
 
