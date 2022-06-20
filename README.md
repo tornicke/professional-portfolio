@@ -61,7 +61,8 @@
 <li>Added relevant comments to the style sheet.</li></h4>
 
 <h2>Screenshot</h2>
-<img scr="assets/images/screenshot.jpeg"> alt="Screenshot of my portfolio">
+
+<img scr="assets/images/screenshot.jpeg" alt="Screenshot of my portfolio">
 
 <h2>Copyright:</h2>
 <h4><li>Website design: Tornike</li>
