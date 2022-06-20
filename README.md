@@ -60,6 +60,9 @@
 <li>Styled the footer,</li>
 <li>Added relevant comments to the style sheet.</li></h4>
 
+<h2>Screenshot</h2>
+<img scr="assets/images/screenshot.jpeg"> alt="Screenshot of my portfolio">
+
 <h2>Copyright:</h2>
 <h4><li>Website design: Tornike</li>
 <li>Stock images, sourced on June 20, 2022</li></h4>
