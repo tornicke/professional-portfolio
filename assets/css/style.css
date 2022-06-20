@@ -102,7 +102,7 @@ container {
 
 .box {
     flex: 1;
-    background: blue;
+    background: yellow;
     color: white;
     border-radius: 10px;
     margin: 20px 10px;
@@ -119,7 +119,7 @@ container {
     }
 
     .boxes. container {
-        display: block'
+        display: block;
         text-align: center;
     }
 }
