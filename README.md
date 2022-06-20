@@ -35,7 +35,7 @@
 
 <h2>Changes made</h2>
 
-<h3><li>In HTML</li></h3>
+<h3>In HTML</h3>
 <h4><li>Build the basic HTML structure, connected the HTML file with the style sheet,</li>
 <li>Built the navigation bar and defined the navigation bar items</li>
 <li>Structured the header and the header image,</li>
@@ -49,7 +49,7 @@
 <li>Added relevant comments to the HTML file</li>
 </h4>
 
-<h3><li>In CSS</li></h3>
+<h3>In CSS</h3>
 <h4><li>Defined the body and container attributes and styles,</li>
 <li>Defined the navigation bar style and adapted the navigation bar items as needed,</li>
 <li>Added styles and responsive features to lists for better visual appeal,</li>
