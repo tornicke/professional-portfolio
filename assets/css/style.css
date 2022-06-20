@@ -1,27 +1,2 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    font-family: Arial, Helvetica, sans-serif
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: rcolumn
-    background-color: grey;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.item {
- width: 100px;
- height: 100px;
- background: blue;
- color: white;
- margin: 10px;   
-}
 
