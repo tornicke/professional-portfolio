@@ -1,3 +1,4 @@
+/*Straightening the boxes across the page*/
 * margins: 0;
 padding: 0;
 /* */
@@ -8,6 +9,7 @@ padding: 0;
     padding: 0;
 }
 
+/*Basic body attributes*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -29,12 +31,14 @@ ul {
     list-style-type: none;
 }
 
+/*Setting max width for better responsiveness*/
 container {
     max-width: 956px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
+/*Setting a different (gray) backround for the navigation bar*/
 .navbar {
     background: gray;
     color: black;
@@ -56,13 +60,13 @@ container {
     font-weight: bold;
 }
 
-/* adding the hover feature, changing the background color for better visibility*/
+/*Adding the hover feature, changing the background color for better visibility*/
 .navbar a:hover {
     background: white;
     color: rgb(89, 179, 236)
 }
 
-/*defining navigation bar items and their position*/
+/*Defining navigation bar items and their position*/
 .navbar .container {
     display: flex;
     justify-content: space-between;
@@ -70,7 +74,7 @@ container {
     height: 100%;
 }
 
-/*placing navigation bar items horizontally*/
+/*Placing navigation bar items horizontally*/
 .navbar ul {
     display: flex;
     flex-direction: row;
@@ -80,6 +84,7 @@ container {
     margin-left: 18px;
 }
 
+/*Defining header attributes*/
 .header {
     background-color: rgb(89, 179, 236);
     color: rgb(20, 20, 19);
@@ -107,6 +112,7 @@ container {
     justify-content: space-between;
 }
 
+/*Defining box attributes*/
 .boxes .container {
     display: flex;
     justify-content: space-between;
@@ -115,7 +121,7 @@ container {
     padding: 8px; 8px;
 }
 
-/*creating "boxa" to separate this box from the rest*/
+/*Creating "boxa" to separate this box from the rest*/
 .boxa {
     flex: 1;
     background: white;
@@ -126,7 +132,7 @@ container {
     padding: 15px 20px;
 }
 
-/*creating "boxb" to separate this box from the rest*/
+/*Creating "boxb" to separate this box from the rest*/
 .boxb {
     flex: 1;
     background: rgb(89, 179, 236);
@@ -139,6 +145,7 @@ container {
     min-height: 280px;
 }
 
+/*Creating "box" for the similar-looking boxes (UX Design & Evaluation, Content Management, Program Management and Tech MArketing)*/
 .box {
     flex: 1;
     background: rgb(89, 179, 236);
@@ -149,7 +156,7 @@ container {
     padding: 15px 20px;
 }
 
-/*creating "boxc" to separate this box from the rest*/
+/*Creating "boxc" to separate this box from the rest*/
 .boxc {
     flex: 1;
     background: white;
@@ -164,14 +171,14 @@ container {
     font-weight: bold;   
 }
 
-/*adding "boxb" due to its different properties*/
+/*Defining "boxc" list item properties*/
 .boxc li {
     display: inline-block;
     text-decoration: underline;
     padding: 10px;
 }
 
-/* defining the max. screen width for better responsiveness*/
+/*Adding a media query and defining the max. screen width for better responsiveness*/
 @media(max-width: 768px) {
     .header .container {
         flex-direction: column;
@@ -179,11 +186,13 @@ container {
         text-align: center;
     }
 
+    /*Specifying the placement of boxes*/
     .boxes .container {
         display: block;
         text-align: center;
     }
 
+    /*Defining footer properties*/
 .footer {
     font-size: 13;
     font-weight: bold;
