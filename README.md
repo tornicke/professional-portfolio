@@ -5,9 +5,9 @@
 
 <h2>User Story</h2>
 
-<h3>AS AN employer
+<h4>AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position</h3>
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position</h4>
 
 <li></li>
 
