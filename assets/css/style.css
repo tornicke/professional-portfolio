@@ -52,7 +52,9 @@ container {
     font-weight: bold;
 }
 
+/* adding the hover feature, changing the background color for better visibility*/
 .navbar a:hover {
+    background: white;
     color: lightblue
 }
 
@@ -108,6 +110,7 @@ container {
     padding: 15px 20px;
 }
 
+/* defining the max. screen width for better responsiveness*/
 @media(max-width: 768px) {
     .header .container {
         flex-direction: column;
