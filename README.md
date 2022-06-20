@@ -62,7 +62,7 @@
 
 <h2>Screenshot</h2>
 
-<img scr="assets/images/screenshot.jpeg" alt="Screenshot of my portfolio">
+![image](https://github.com/tornicke/professional-portfolio/blob/686137ecaadd6eb8145e7d294b16eef6b34da7f9/assets/images/screenshot.jpeg)
 
 <h2>Copyright:</h2>
 <h4><li>Website design: Tornike</li>
