@@ -1,4 +1,5 @@
-
+* margins: 0;
+padding: 0;
 /* */
 
 * {
@@ -116,7 +117,7 @@ container {
 
 .boxa {
     flex: 1;
-    background: red;
+    background: grey;
     color: white;
     border-radius: 10px;
     margin: 20px 10px;
@@ -147,13 +148,14 @@ container {
     flex-direction: row;
     line-height: 1.2;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bold;   
 }
 
+/*adding "boxb" due to its different properties*/
 .boxb li {
     display: inline-block;
     text-decoration: underline;
-    padding: 10px; 10px;
+    padding: 10px;
 }
 
 /* defining the max. screen width for better responsiveness*/
