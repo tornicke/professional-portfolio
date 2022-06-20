@@ -118,7 +118,18 @@ container {
 /*creating "boxa" to separate this box from the rest*/
 .boxa {
     flex: 1;
-    background: grey;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+/*creating "boxb" to separate this box from the rest*/
+.boxb {
+    flex: 1;
+    background: rgb(89, 179, 236);
     color: white;
     border-radius: 10px;
     margin: 20px 10px;
@@ -138,8 +149,8 @@ container {
     padding: 15px 20px;
 }
 
-/*creating "boxb" to separate this box from the rest*/
-.boxb {
+/*creating "boxc" to separate this box from the rest*/
+.boxc {
     flex: 1;
     background: white;
     color: darkgray;
@@ -154,7 +165,7 @@ container {
 }
 
 /*adding "boxb" due to its different properties*/
-.boxb li {
+.boxc li {
     display: inline-block;
     text-decoration: underline;
     padding: 10px;
