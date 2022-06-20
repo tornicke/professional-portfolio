@@ -29,13 +29,13 @@ ul {
 }
 
 container {
-    max-width: 960px;
+    max-width: 956px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
 .navbar {
-    background-color: lightblue;
+    background: lightblue;
     color: black;
     height: 70px;
 }
@@ -60,13 +60,15 @@ container {
     color: lightblue
 }
 
-.navbar. container {
+/*defining navigation bar items and their position*/
+.navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
 
+/*placing navigation bar items horizontally*/
 .navbar ul {
     display: flex;
 }
@@ -76,9 +78,10 @@ container {
 }
 
 .header {
-    background: lightblue;
+    background-color: lightblue;
     color: rgb(20, 20, 19);
     line-height: 1.5;
+    min-height: 400px;
     margin-top: 5px; 5px;
 }
 
@@ -98,12 +101,12 @@ container {
 .header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .boxes .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .box {
@@ -119,12 +122,12 @@ container {
 /* defining the max. screen width for better responsiveness*/
 @media(max-width: 768px) {
     .header .container {
-        flex-direction: column;
+        flex-direction: column
         padding-top: 20px;
         text-align: center;
     }
 
-    .boxes. container {
+    .boxes .container {
         display: block;
         text-align: center;
     }
