@@ -171,4 +171,15 @@ container {
         text-align: center;
     }
 
+.footer {
+    font-size: 13;
+    font-weight: bold;
+    height: 25px;
+    width: 100px;
+    padding: 10px; 0;
+    color: black
+    background-color: lightblue
+    text-alight: center;
+    }
+
 }
