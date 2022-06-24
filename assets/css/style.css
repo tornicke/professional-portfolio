@@ -128,7 +128,7 @@ container {
     border-radius: 10px;
     margin: 20px; 10px;
     box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
-    padding: 15px 20px;
+    padding: 15px; 20px;
 }
 
 /*Creating "boxb" to separate this box from the rest*/
@@ -140,7 +140,7 @@ container {
     margin: 20px; 10px;
     line-height: 2;
     box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
-    padding: 15px 20px;
+    padding: 15px; 20px;
     min-height: 280px;
 }
 
@@ -152,7 +152,7 @@ container {
     border-radius: 10px;
     margin: 20px; 10px;
     box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
-    padding: 15px 20px;
+    padding: 15px; 20px;
 }
 
 /*Creating "boxc" to separate this box from the rest*/
