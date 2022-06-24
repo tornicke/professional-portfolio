@@ -62,7 +62,7 @@
 
 <h2>Screenshot</h2>
 
-![image](assets/images/Screenshot.jpeg)
+![image](/Users/tj/Desktop/VS CODE FOLDER/professional-portfolio/assets/images/Screenshot.jpeg)
 
 <h2>Copyright:</h2>
 <h4><li>Website design: Tornike</li>
